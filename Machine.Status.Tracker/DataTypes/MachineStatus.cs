@@ -30,13 +30,13 @@ namespace Machine.Status.Tracker.DataTypes
             switch (Status)
             {
                 case MachineStatusEnum.Running:
-                    Icon = "pack://application:,,,/running_icon.png";  // Correct path for running icon
+                    Icon = "pack://application:,,,/running_icon.png";  
                     break;
                 case MachineStatusEnum.Idle:
-                    Icon = "pack://application:,,,/idle_icon.png";  // Correct path for idle icon
+                    Icon = "pack://application:,,,/idle_icon.png";  
                     break;
                 case MachineStatusEnum.Offline:
-                    Icon = "pack://application:,,,/offline_icon.png";  // Correct path for offline icon
+                    Icon = "pack://application:,,,/offline_icon.png";  
                     break;
             }
         }
